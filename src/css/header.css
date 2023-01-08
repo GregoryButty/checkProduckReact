@@ -1,0 +1,41 @@
+/* Header */
+
+.top_header {
+    width: 100%;
+    height: auto;
+}
+
+.top_header .main_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 5rem;
+    padding: 0.5rem;
+}
+
+.top_header .main_header .title_head {
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 2.7rem;
+    color: var(--blue);
+}
+
+.top_header .main_header .title_head .title_span_head {
+    color: var(--yellow);
+}
+
+.top_header .main_header .nav_head {
+}
+
+.top_header .main_header .nav_head .ul_head {
+    display: flex;
+    font-size: 2rem;
+}
+
+.top_header .main_header .nav_head .ul_head .li_head {
+    margin-left: 3rem;
+    list-style-type: none;
+}
+
+.top_header .main_header .nav_head .ul_head .li_head .a_head {
+
+}
+/* Header */
