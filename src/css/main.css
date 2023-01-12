@@ -1,6 +1,7 @@
 @import 'colors.css';
 @import 'fonts.css';
 @import 'header.css';
+@import 'mainList.css';
 
 * {
     padding: 0;
