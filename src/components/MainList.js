@@ -1,16 +1,32 @@
 import React from 'react';
+import ProductBoxes from './ProductBoxes';
+import my_img from '../img/my_img.webp'
 
 class MainList extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            candelsProducts: {},
-            sayHello: "Hello",
-            deletMasege: ""
-        }
 
-        // this.handleClick = this.handleClick.bind(this);
-    }
+    products = [
+        {
+            id: '1',
+            img: my_img,
+            name: 'Rose',
+            par: 'SFdsfae dfvgea sdvadvd fdbfd.',
+            cost: '235'
+        },
+        {
+            id: '2',
+            img: my_img,
+            name: 'Ginho',
+            par: 'Pwfew erbe enbebdaf sfabafd.',
+            cost: '260'
+        },
+        {
+            id: '3',
+            img: my_img,
+            name: 'Egg flovers',
+            par: 'Pwds grnrg zxvdf tymty tr drg.',
+            cost: '255'
+        }
+    ]
 
     render() {
         return (<section className='main_list'>
@@ -18,11 +34,10 @@ class MainList extends React.Component {
             </div>
 
             <div className='midle_sec'>
-                <h1>{this.state.sayHello}</h1>
+                {this.products.map((product) => (<ProductBoxes image={product.img} name={product.name} textInfo={product.par} cost={product.cost} />))}
             </div>
 
             <div className='right_sec'>
-
             </div>
         </section>)
     }

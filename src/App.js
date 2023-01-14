@@ -6,7 +6,7 @@ class App extends React.Component {
     render() {
         return (<div>
 
-            <Header />
+            <Header title1='Бжілка-' title2='Українка'/>
             <MainList />
 
         </div>)

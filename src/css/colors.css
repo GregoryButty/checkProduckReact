@@ -6,8 +6,13 @@
     --green: rgb(50, 100, 10);
     --purpule: rgb(200, 60, 220);
     --red: rgb(165, 42, 42);
-    --blue: rgb(20, 50, 200);
     --yellow: rgb(190, 140, 0);
+
+    --very-darck-blue: rgb(19, 40, 55);
+    --darck-blue1: rgb(21, 53, 79);
+    --darck-blue2: rgb(25, 64, 95 );
+    --blue: rgb(49, 119, 174);
+    --light-blue: rgb(78, 160, 225);
 
     --box-shadow: 0rem 0rem 1rem var(--black);
 }

@@ -5,7 +5,7 @@ class Header extends React.Component {
         return (<div className='top_header'>
 
             <header className='main_header'>
-                <h1 className='title_head'>Бжілка-<span className='title_span_head'>Українка</span></h1>
+                <h1 className='title_head'>{this.props.title1}<span className='title_span_head'>{this.props.title2}</span></h1>
                 <nav className='nav_head'>
                     <ul className='ul_head'>
                         <li className='li_head'><a className='a_head' href='#'>Main</a></li>

@@ -20,7 +20,7 @@ html {
 
 body {
     color: var(--black);
-    background-color: var(--gray);
+    background-color: var(--very-darck-blue);
 }
 
 .conteiner {
@@ -34,6 +34,18 @@ a {
 }
 
 a:hover {
-    color: var(--white);
+    color: var(--blue);
     transition: .12s linear;
+}
+
+button {
+    border: none;
+    color: #000;
+    background-color: var(--darck-blue1);
+    transition: 0.1235s linear;
+}
+
+button:hover {
+    background-color: var(--blue);
+    transition: 0.1235s linear;
 }
